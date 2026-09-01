@@ -177,7 +177,7 @@ But your code can.
 ```text
 ╭──────────────────────────────────────────╮
 │                                          │
-│        SIGNAL ACQUIRED • KEEP BUILDING   │
+│     SIGNAL ACQUIRED • KEEP BUILDING      │
 │                                          │
 ╰──────────────────────────────────────────╯
 ```
@@ -185,5 +185,3 @@ But your code can.
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:0b1f3a,100:020617&height=120&section=footer" width="100%"/>
 
 </div>
-
-
