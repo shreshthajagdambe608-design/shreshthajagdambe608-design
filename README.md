@@ -85,17 +85,17 @@ OBJECTIVE  →  Keep moving forward.
 │                    CORE SYSTEMS                          │
 ├──────────────────────────────────────────────────────────┤
 │                                                          │
-│  FRONTEND                                                 │
-│  HTML • CSS • JavaScript • React • Tailwind               │
+│  FRONTEND                                                │
+│  HTML • CSS • JavaScript • React • Tailwind              │
 │                                                          │
-│  BACKEND                                                  │
-│  Node.js                                                   │
+│  BACKEND                                                 │
+│  Node.js                                                 │
 │                                                          │
-│  DESIGN                                                    │
-│  Figma                                                     │
+│  DESIGN                                                  │
+│  Figma                                                   │
 │                                                          │
-│  TOOLS                                                     │
-│  Git • GitHub • VS Code                                    │
+│  TOOLS                                                   │
+│  Git • GitHub • VS Code                                  │
 │                                                          │
 └──────────────────────────────────────────────────────────┘
 ```
@@ -132,7 +132,7 @@ OBJECTIVE  →  Keep moving forward.
 │  ◉ WEB DEVELOPMENT                                       │
 │    Building responsive and interactive experiences.      │
 │                                                          │
-│  ◉ UI / UX                                                │
+│  ◉ UI / UX                                               │
 │    Designing interfaces with purpose and clarity.        │
 │                                                          │
 │  ◉ CREATIVE TECHNOLOGY                                   │
