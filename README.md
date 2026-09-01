@@ -1,142 +1,216 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0b1f3a,100:111827&height=220&section=header&text=SHRESHTHA%20JAGDAMBE&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=CODE%20%E2%80%A2%20DESIGN%20%E2%80%A2%20EXPLORATION&descAlignY=61&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,45:020617,75:0b1f3a,100:172554&height=240&section=header&text=SHRESHTHA%20JAGDAMBE&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=MISSION%20%7C%20CODE%20%7C%20DESIGN%20%7C%20EXPLORATION&descAlignY=62&descSize=15" width="100%"/>
 
 <br>
 
-# `Hello, World. 👋`
+### `◉ SIGNAL RECEIVED`
 
-### *Somewhere between curiosity and creation.*
+# Hello, World. 👋
 
-<br>
-
-<a href="https://github.com/shreshthajagdambe608-design">
-<img src="https://img.shields.io/badge/GITHUB-020617?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/shreshtha-jagdambe-402a55307/">
-<img src="https://img.shields.io/badge/LINKEDIN-0B1F3A?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;
-<img src="https://komarev.com/ghpvc/?username=shreshthajagdambe608-design&color=1e40af&style=for-the-badge&label=VISITORS"/>
-
-</div>
-
----
-
-## `01 // MISSION CONTROL`
-
-> **Exploring the intersection of technology, design and imagination.**
-
-I'm a developer and designer who enjoys turning ideas into interactive experiences.
+### *Welcome aboard.*
 
 ```text
 ╔══════════════════════════════════════════════════════════╗
-║                    MISSION PROFILE                       ║
+║                                                          ║
+║                   INTERSTELLAR SYSTEM                   ║
+║                                                          ║
 ╠══════════════════════════════════════════════════════════╣
 ║                                                          ║
-║  ROLE        → Developer / Designer                      ║
-║  STATUS      → Exploring                                 ║
-║  OBJECTIVE   → Build • Learn • Experiment                ║
-║  LOCATION    → Planet Earth                              ║
-║  SIGNAL      → Always curious                            ║
+║  PILOT        SHRESHTHA JAGDAMBE                        ║
+║  MISSION      BUILD SOMETHING MEANINGFUL                ║
+║  STATUS       ● ONLINE                                   ║
+║  LOCATION     EARTH / INDIA                              ║
+║  DESTINATION  UNKNOWN                                    ║
+║                                                          ║
+║  SIGNAL       ████████████████████  STABLE              ║
 ║                                                          ║
 ╚══════════════════════════════════════════════════════════╝
 ```
 
-* `01` — Exploring **software development & design**
-* `02` — Building creative and interactive projects
-* `03` — Learning new technologies continuously
-* `04` — Working with **Team Control Alt Defeat**
-* `05` — Turning concepts into things people can actually use
+<a href="https://github.com/shreshthajagdambe608-design">
+<img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
----
+  
 
-## `02 // TECHNOLOGY`
-
-<div align="center">
-
-### `CORE SYSTEMS`
-
-<img src="https://skillicons.dev/icons?i=html,css,javascript,react,tailwind,nodejs"/>
-
-<br><br>
-
-### `DEVELOPMENT TOOLS`
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
-
-<br><br>
-
-### `DESIGN`
-
-<img src="https://skillicons.dev/icons?i=figma"/>
+<a href="https://www.linkedin.com/in/shreshtha-jagdambe-402a55307/">
+<img src="https://img.shields.io/badge/LINKEDIN-071A33?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
 </div>
 
 ---
 
-## `03 // CURRENT TRAJECTORY`
+<div align="center">
+
+## `01 // MISSION CONTROL`
+
+### `WE ARE HERE TO CREATE.`
+
+*Exploring the space between imagination and technology.*
+
+</div>
+
+I build things, break things, learn from them, and build them again.
+
+My interests orbit around **software development, interface design, creative technology, and collaboration.**
 
 ```text
-                         ✦
-                        / \
-                       /   \
-                      /     \
-                 ────●───────●────
-                    /         \
-                   /           \
-              LEARN             BUILD
-                \                 /
-                 \               /
-                  ──────●────────
-                       IMPROVE
-                          │
-                          ▼
-                       REPEAT
+MISSION LOG
+──────────────────────────────────────────────────────────
+
+[01]  Explore new technologies
+[02]  Design better experiences
+[03]  Build experimental projects
+[04]  Collaborate with ambitious people
+[05]  Launch ideas into the real world
+
+──────────────────────────────────────────────────────────
+OBJECTIVE  →  Keep moving forward.
 ```
-
-### Current focus
-
-**Web Development**
-Creating responsive, modern and interactive web experiences.
-
-**UI / UX**
-Designing interfaces that are simple, intentional and enjoyable.
-
-**Creative Technology**
-Experimenting with ideas where design and code meet.
-
-**Collaboration**
-Building, competing and learning with other developers.
 
 ---
 
-## `04 // TEAM TRANSMISSION`
+<div align="center">
+
+## `02 // SYSTEMS ONLINE`
+
+### `TECHNOLOGY IS THE ENGINE.`
+
+</div>
+
+```text
+┌──────────────────────────────────────────────────────────┐
+│                    CORE SYSTEMS                          │
+├──────────────────────────────────────────────────────────┤
+│                                                          │
+│  FRONTEND                                                 │
+│  HTML • CSS • JavaScript • React • Tailwind               │
+│                                                          │
+│  BACKEND                                                  │
+│  Node.js                                                   │
+│                                                          │
+│  DESIGN                                                    │
+│  Figma                                                     │
+│                                                          │
+│  TOOLS                                                     │
+│  Git • GitHub • VS Code                                    │
+│                                                          │
+└──────────────────────────────────────────────────────────┘
+```
+
+### `PRIMARY SYSTEMS`
 
 <div align="center">
 
+<img src="https://skillicons.dev/icons?i=html,css,javascript,react,tailwind,nodejs" />
+
+</div>
+
+### `DESIGN & DEVELOPMENT`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=figma,git,github,vscode" />
+
+</div>
+
+---
+
+<div align="center">
+
+## `03 // CURRENT MISSION`
+
+### `THE UNKNOWN IS THE DESTINATION.`
+
+</div>
+
+```text
+╭──────────────────────────────────────────────────────────╮
+│                                                          │
+│  ◉ WEB DEVELOPMENT                                       │
+│    Building responsive and interactive experiences.      │
+│                                                          │
+│  ◉ UI / UX                                                │
+│    Designing interfaces with purpose and clarity.        │
+│                                                          │
+│  ◉ CREATIVE TECHNOLOGY                                   │
+│    Experimenting where design meets code.                │
+│                                                          │
+│  ◉ COLLABORATION                                         │
+│    Learning and building with great teams.               │
+│                                                          │
+╰──────────────────────────────────────────────────────────╯
+```
+
+---
+
+<div align="center">
+
+## `04 // MISSION OBJECTIVES`
+
+### `LEARN. BUILD. EXPERIMENT. REPEAT.`
+
+</div>
+
+```text
+OBJECTIVE BOARD
+──────────────────────────────────────────────────────────
+
+[ACTIVE]   Build meaningful web experiences
+           █████████████████░░░
+
+[ACTIVE]   Improve UI / UX design skills
+           ███████████████░░░░░
+
+[ACTIVE]   Explore modern web technologies
+           █████████████░░░░░░░
+
+[ACTIVE]   Create experimental projects
+           ████████████░░░░░░░░
+
+[NEXT]     Collaborate on ambitious ideas
+           ████████░░░░░░░░░░░░
+
+──────────────────────────────────────────────────────────
+PRIMARY DIRECTIVE  →  Turn ideas into reality.
+```
+
+---
+
+<div align="center">
+
+## `05 // TEAM TRANSMISSION`
+
 <a href="https://github.com/Team-Control-Alt-Defeat">
 
-<img src="https://img.shields.io/badge/TEAM%20CONTROL%20ALT%20DEFEAT-020617?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/◉%20TEAM%20CONTROL%20ALT%20DEFEAT-020617?style=for-the-badge&logo=github&logoColor=white"/>
 
 </a>
 
 <br><br>
 
-`BUILD`   `COMPETE`   `CREATE`   `LEARN`
+```text
+TEAM STATUS
+────────────────────────────────────────
 
-<br>
+BUILD       ████████████████████  100%
+CREATE      ████████████████████  100%
+LEARN       ████████████████████  100%
+COMPETE     ████████████████████  100%
 
-*One team. Multiple ideas. Infinite possibilities.*
+────────────────────────────────────────
+TRANSMISSION  →  ACTIVE
+```
 
 </div>
 
 ---
 
-## `05 // GITHUB TELEMETRY`
-
 <div align="center">
+
+## `06 // FLIGHT TELEMETRY`
 
 <img src="https://github-readme-stats.vercel.app/api?username=shreshthajagdambe608-design&show_icons=true&hide_border=true&bg_color=020617&title_color=ffffff&icon_color=60a5fa&text_color=94a3b8&rank_icon=github" height="170"/>
 
@@ -146,42 +220,46 @@ Building, competing and learning with other developers.
 
 ---
 
-## `06 // TRANSMISSION`
-
 <div align="center">
 
-### *"The universe is under no obligation to make sense to you."*
+## `07 // DEEP SPACE TRANSMISSION`
+
+```text
+────────────────────────────────────────────────────
+
+              If we are going to explore
+                    the unknown,
+
+            we might as well build something.
+
+─────────────────────────────────────────────────────
+```
+
+### `SIGNAL STRENGTH: ████████████████████`
+
+### `MISSION STATUS: ACTIVE`
+
+### `DESTINATION: THE FUTURE`
 
 <br>
 
-But your code can.
+<a href="https://www.linkedin.com/in/shreshtha-jagdambe-402a55307/">
+<img src="https://img.shields.io/badge/ESTABLISH%20CONNECTION-0B1F3A?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+  
+
+<a href="https://github.com/shreshthajagdambe608-design">
+<img src="https://img.shields.io/badge/ENTER%20MISSION%20ARCHIVE-000000?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/shreshtha-jagdambe-402a55307/">
-<img src="https://img.shields.io/badge/ESTABLISH%20CONNECTION-1e3a8a?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:172554,35:0b1f3a,70:020617,100:000000&height=140&section=footer" width="100%"/>
 
- 
+### `END OF TRANSMISSION`
 
-<a href="https://github.com/shreshthajagdambe608-design">
-<img src="https://img.shields.io/badge/EXPLORE%20THE%20REPOSITORIES-020617?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+`◉ 2026 — SHRESHTHA JAGDAMBE`
 
 </div>
 
----
-
-<div align="center">
-
-```text
-╭──────────────────────────────────────────╮
-│                                          │
-│     SIGNAL ACQUIRED • KEEP BUILDING      │
-│                                          │
-╰──────────────────────────────────────────╯
-```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:0b1f3a,100:020617&height=120&section=footer" width="100%"/>
-
-</div>
