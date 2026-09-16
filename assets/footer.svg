@@ -1,13 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150">
   <defs>
-    <linearGradient id="footerVoid" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#010204"/><stop offset="50%" stop-color="#060912"/><stop offset="100%" stop-color="#0c101d"/></linearGradient>
-    <linearGradient id="horizonRim" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#9f7670" stop-opacity="0"/><stop offset="20%" stop-color="#9f7670" stop-opacity="0.5"/><stop offset="40%" stop-color="#c79f5e" stop-opacity="0.85"/><stop offset="50%" stop-color="#fff7e8" stop-opacity="1"/><stop offset="60%" stop-color="#f3c759" stop-opacity="0.85"/><stop offset="80%" stop-color="#c79f5e" stop-opacity="0.5"/><stop offset="100%" stop-color="#9f7670" stop-opacity="0"/></linearGradient>
-    <linearGradient id="ionTrail" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f3c759" stop-opacity="0"/><stop offset="70%" stop-color="#f3c759" stop-opacity="0.6"/><stop offset="100%" stop-color="#fff7e8" stop-opacity="0.95"/></linearGradient>
-    <filter id="footerGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="fglow1"/><feMerge><feMergeNode in="fglow1"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="craftBloom" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3.5" result="cBloom"/><feMerge><feMergeNode in="cBloom"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="footerVoid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#383a40"/>
+      <stop offset="52%" stop-color="#30343c"/>
+      <stop offset="100%" stop-color="#262a31"/>
+    </linearGradient>
+    <linearGradient id="footerDust" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a19384" stop-opacity="0.30"/>
+      <stop offset="58%" stop-color="#7b8494" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#b98f96" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="horizonRim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b7aca0" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#b7aca0" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#e8dfd6" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#99a5b8" stop-opacity="0.56"/>
+      <stop offset="88%" stop-color="#ba9197" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ba9197" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ionTrail" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e4dbd1" stop-opacity="0"/>
+      <stop offset="72%" stop-color="#c7beb5" stop-opacity="0.56"/>
+      <stop offset="100%" stop-color="#efe6dd" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="footerGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="fglow1"/>
+      <feMerge>
+        <feMergeNode in="fglow1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="craftBloom" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3.5" result="cBloom"/>
+      <feMerge>
+        <feMergeNode in="cBloom"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
+
   <rect width="1200" height="150" fill="url(#footerVoid)"/>
-  <g fill="#ffffff"><circle cx="90" cy="35" r="0.9" opacity="0.5"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.8s" repeatCount="indefinite"/></circle><circle cx="240" cy="68" r="0.7" opacity="0.4"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4.6s" repeatCount="indefinite"/></circle><circle cx="410" cy="25" r="1.2" opacity="0.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/></circle><circle cx="580" cy="48" r="0.8" opacity="0.3"/><circle cx="750" cy="22" r="1.1" opacity="0.7"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="5.1s" repeatCount="indefinite"/></circle><circle cx="910" cy="60" r="0.7" opacity="0.4"/><circle cx="1060" cy="30" r="1.3" opacity="0.75"><animate attributeName="opacity" values="0.2;0.95;0.2" dur="4.2s" repeatCount="indefinite"/></circle><circle cx="1140" cy="75" r="0.8" opacity="0.5"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.5s" repeatCount="indefinite"/></circle><circle cx="170" cy="82" r="1.0" fill="#f3c759" opacity="0.6"/><circle cx="830" cy="72" r="1.1" fill="#c79f5e"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.0s" repeatCount="indefinite"/></circle></g>
-  <g transform="translate(600, 310)"><circle r="225" fill="#04060d"/><circle r="225" fill="none" stroke="#9f7670" stroke-width="12" opacity="0.22" filter="url(#footerGlow)"/><circle r="225" fill="none" stroke="url(#horizonRim)" stroke-width="5" opacity="0.75" filter="url(#footerGlow)"><animate attributeName="opacity" values="0.65;0.9;0.65" dur="6.5s" repeatCount="indefinite"/></circle><circle r="225" fill="none" stroke="#fff7e8" stroke-width="1.8" opacity="0.95"/></g>
-  <g filter="url(#craftBloom)"><animateMotion dur="13.5s" repeatCount="indefinite" path="M -40 22 Q 600 -18 1240 48"/><animate attributeName="opacity" values="0;0.9;1;0.9;0" dur="13.5s" repeatCount="indefinite"/><line x1="-24" y1="2" x2="0" y2="0" stroke="url(#ionTrail)" stroke-width="2.2" opacity="0.8"/><circle cx="0" cy="0" r="3.2" fill="none" stroke="#fff7e8" stroke-width="1.0"/><circle cx="0" cy="0" r="1.1" fill="#f3c759"/></g>
+  <rect width="1200" height="150" fill="url(#footerDust)"/>
+
+  <g fill="#f4efe8">
+    <circle cx="90" cy="35" r="0.9" opacity="0.42"><animate attributeName="opacity" values="0.16;0.78;0.16" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="68" r="0.7" opacity="0.34"><animate attributeName="opacity" values="0.72;0.2;0.72" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="410" cy="25" r="1.2" opacity="0.5"><animate attributeName="opacity" values="0.25;0.86;0.25" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="580" cy="48" r="0.8" opacity="0.28"/>
+    <circle cx="750" cy="22" r="1.1" opacity="0.62"><animate attributeName="opacity" values="0.72;0.18;0.72" dur="5.1s" repeatCount="indefinite"/></circle>
+    <circle cx="910" cy="60" r="0.7" opacity="0.32"/>
+    <circle cx="1060" cy="30" r="1.3" opacity="0.66"><animate attributeName="opacity" values="0.2;0.88;0.2" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1140" cy="75" r="0.8" opacity="0.45"><animate attributeName="opacity" values="0.62;0.18;0.62" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="170" cy="82" r="1.0" fill="#be949a" opacity="0.58"/>
+    <circle cx="830" cy="72" r="1.1" fill="#9da9bb"><animate attributeName="opacity" values="0.24;0.7;0.24" dur="4.0s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g transform="translate(600, 310)">
+    <circle r="225" fill="#2c3037"/>
+    <circle r="225" fill="none" stroke="#998d80" stroke-width="12" opacity="0.22" filter="url(#footerGlow)"/>
+    <circle r="225" fill="none" stroke="url(#horizonRim)" stroke-width="5" opacity="0.72" filter="url(#footerGlow)">
+      <animate attributeName="opacity" values="0.6;0.84;0.6" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="225" fill="none" stroke="#efe5da" stroke-width="1.8" opacity="0.9"/>
+  </g>
+
+  <g filter="url(#craftBloom)">
+    <animateMotion dur="13.5s" repeatCount="indefinite" path="M -40 22 Q 600 -18 1240 48"/>
+    <animate attributeName="opacity" values="0;0.9;1;0.9;0" dur="13.5s" repeatCount="indefinite"/>
+    <line x1="-24" y1="2" x2="0" y2="0" stroke="url(#ionTrail)" stroke-width="2.2" opacity="0.8"/>
+    <circle cx="0" cy="0" r="3.2" fill="none" stroke="#efe6dd" stroke-width="1.0"/>
+    <circle cx="0" cy="0" r="1.1" fill="#b89298"/>
+  </g>
 </svg>
