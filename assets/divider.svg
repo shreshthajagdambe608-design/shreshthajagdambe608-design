@@ -1,16 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 28" width="1200" height="28">
   <defs>
-    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#e8b923" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#ffd76b" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#e8b923" stop-opacity="0"/>
-    </linearGradient>
+    <linearGradient id="divBeam" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#9f7670" stop-opacity="0"/><stop offset="20%" stop-color="#9f7670" stop-opacity="0.25"/><stop offset="38%" stop-color="#c79f5e" stop-opacity="0.75"/><stop offset="50%" stop-color="#fff7e8" stop-opacity="1"/><stop offset="62%" stop-color="#f3c759" stop-opacity="0.75"/><stop offset="80%" stop-color="#9f7670" stop-opacity="0.25"/><stop offset="100%" stop-color="#9f7670" stop-opacity="0"/></linearGradient>
+    <linearGradient id="pulseTrail" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f3c759" stop-opacity="0"/><stop offset="80%" stop-color="#f3c759" stop-opacity="0.8"/><stop offset="100%" stop-color="#fffdf7" stop-opacity="1"/></linearGradient>
+    <filter id="divGlow" x="-60%" y="-300%" width="220%" height="700%"><feGaussianBlur stdDeviation="3.5" result="glow1"/><feMerge><feMergeNode in="glow1"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="nodeGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="nglow"/><feMerge><feMergeNode in="nglow"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <line x1="0" y1="12" x2="1200" y2="12" stroke="url(#beam)" stroke-width="1.5">
-    <animate attributeName="opacity" values="0.35;1;0.35" dur="4s" repeatCount="indefinite"/>
-  </line>
-  <circle cy="12" r="2.6" fill="#fff3c4">
-    <animate attributeName="cx" values="-20;1220" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;1;0" dur="7s" repeatCount="indefinite"/>
-  </circle>
+  <line x1="100" y1="14" x2="1100" y2="14" stroke="url(#divBeam)" stroke-width="4.5" opacity="0.4" filter="url(#divGlow)"><animate attributeName="opacity" values="0.25;0.55;0.25" dur="4.5s" repeatCount="indefinite"/></line>
+  <line x1="40" y1="14" x2="1160" y2="14" stroke="url(#divBeam)" stroke-width="1.4"><animate attributeName="opacity" values="0.55;0.95;0.55" dur="3.8s" repeatCount="indefinite"/></line>
+  <g transform="translate(600, 14)"><circle r="8.5" fill="none" stroke="#f3c759" stroke-width="0.9" opacity="0.5"><animate attributeName="r" values="6.5;10;6.5" dur="3.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.6s" repeatCount="indefinite"/></circle><circle r="5.2" fill="none" stroke="#c79f5e" stroke-width="1.1" opacity="0.75"/><circle r="2.8" fill="#020306"/><circle r="3.2" fill="none" stroke="#fff7e8" stroke-width="0.9" filter="url(#nodeGlow)"/></g>
+  <g filter="url(#divGlow)"><animateMotion dur="6.5s" repeatCount="indefinite" path="M -40 14 L 1240 14"/><line x1="-28" y1="0" x2="0" y2="0" stroke="url(#pulseTrail)" stroke-width="2.2" opacity="0.7"/><circle cx="0" cy="0" r="2.4" fill="#fffdf7"/></g>
+  <g filter="url(#divGlow)"><animateMotion dur="9.2s" repeatCount="indefinite" path="M 1240 14 L -40 14"/><circle cx="0" cy="0" r="1.6" fill="#f3c759" opacity="0.6"/></g>
 </svg>

@@ -3,7 +3,7 @@
 <img src="./assets/header.svg" width="100%" alt="Shreshtha Jagdambe"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=3200&pause=700&color=E8B923&background=00000000&center=true&vCenter=true&width=700&height=45&letterSpacing=1px&lines=Exploring+the+space+between+imagination+%26+tech;Frontend+Developer+%7C+UI%2FUX+Enthusiast;Learning.+Building.+Experimenting.+Repeat." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=23&duration=3300&pause=800&color=F3C759&background=00000000&center=true&vCenter=true&width=700&height=45&letterSpacing=1.2px&lines=Exploring+the+space+between+imagination+%26+tech;Frontend+Developer+%7C+UI%2FUX+Enthusiast;Learning.+Building.+Experimenting.+Repeat." alt="Typing SVG" />
 </a>
 
 </div>
@@ -59,7 +59,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=4500&pause=1200&color=9FB3D1&background=00000000&center=true&vCenter=true&width=750&height=40&lines=%22If+we+are+going+to+explore+the+unknown%2C+we+might+as+well+build+something.%22" alt="Quote" />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=500&size=18&duration=4200&pause=1400&color=B8C9DF&background=00000000&center=true&vCenter=true&width=750&height=45&letterSpacing=0.8px&lines=%22If+we+are+going+to+explore+the+unknown%2C+we+might+as+well+build+something.%22" alt="Quote" />
 
 </div>
 
