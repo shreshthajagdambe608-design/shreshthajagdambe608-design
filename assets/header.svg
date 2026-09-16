@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240">
   <defs>
     <radialGradient id="void" cx="50%" cy="58%" r="75%">
-      <stop offset="0%" stop-color="#0b1020"/>
-      <stop offset="55%" stop-color="#05070f"/>
-      <stop offset="100%" stop-color="#010206"/>
+      <stop offset="0%" stop-color="#111338"/>
+      <stop offset="55%" stop-color="#07081a"/>
+      <stop offset="100%" stop-color="#02030a"/>
     </radialGradient>
     <linearGradient id="disk" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#e8b923" stop-opacity="0"/>
-      <stop offset="25%"  stop-color="#ffd76b" stop-opacity="1"/>
-      <stop offset="50%"  stop-color="#fff3c4" stop-opacity="1"/>
-      <stop offset="75%"  stop-color="#e8912a" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#e8b923" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#8edcff" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#76c6ff" stop-opacity="1"/>
+      <stop offset="50%"  stop-color="#d8c8ff" stop-opacity="1"/>
+      <stop offset="75%"  stop-color="#a989ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#8edcff" stop-opacity="0"/>
     </linearGradient>
     <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="7" result="b"/>
@@ -23,7 +23,6 @@
 
   <rect width="1200" height="240" fill="url(#void)"/>
 
-  <!-- drifting starfield -->
   <g fill="#ffffff">
     <g>
       <animateTransform attributeName="transform" type="translate"
@@ -44,24 +43,20 @@
     </g>
   </g>
 
-  <!-- lensed accretion disk -->
   <g transform="translate(600 130)">
-    <ellipse rx="230" ry="26" fill="none" stroke="url(#disk)" stroke-width="16" opacity="0.30" filter="url(#soft)"/>
+    <ellipse rx="230" ry="26" fill="none" stroke="url(#disk)" stroke-width="16" opacity="0.3" filter="url(#soft)"/>
     <ellipse rx="230" ry="26" fill="none" stroke="url(#disk)" stroke-width="3.5" filter="url(#glow)">
       <animate attributeName="opacity" values="0.75;1;0.75" dur="5s" repeatCount="indefinite"/>
     </ellipse>
-    <!-- vertical lensing arc -->
     <path d="M -96 0 A 96 96 0 0 1 96 0" fill="none" stroke="url(#disk)"
           stroke-width="3" opacity="0.85" filter="url(#glow)"/>
     <path d="M -96 0 A 96 96 0 0 0 96 0" fill="none" stroke="url(#disk)"
           stroke-width="2" opacity="0.35"/>
-    <!-- event horizon -->
-    <circle r="72" fill="#010206"/>
-    <circle r="74" fill="none" stroke="#ffd76b" stroke-width="1.2" opacity="0.5">
+    <circle r="72" fill="#02030a"/>
+    <circle r="74" fill="none" stroke="#8edcff" stroke-width="1.2" opacity="0.5">
       <animate attributeName="opacity" values="0.25;0.7;0.25" dur="6s" repeatCount="indefinite"/>
     </circle>
-    <!-- orbiting photon -->
-    <circle r="2.4" fill="#fff3c4" filter="url(#glow)">
+    <circle r="2.4" fill="#d8c8ff" filter="url(#glow)">
       <animateMotion dur="9s" repeatCount="indefinite"
         path="M 230 0 A 230 26 0 1 1 -230 0 A 230 26 0 1 1 230 0"/>
     </circle>
@@ -72,7 +67,7 @@
       SHRESHTHA JAGDAMBE
       <animate attributeName="opacity" values="0;1" dur="2s" fill="freeze"/>
     </text>
-    <text x="600" y="216" font-size="14" fill="#9fb3d1" letter-spacing="2">
+    <text x="600" y="216" font-size="14" fill="#9ab1ff" letter-spacing="2">
       Building something meaningful, one project at a time
       <animate attributeName="opacity" values="0;0;0.9" dur="3.4s" fill="freeze"/>
     </text>
