@@ -61,5 +61,8 @@
       font-size="34" font-weight="800" fill="#e8e2d8" letter-spacing="6" filter="url(#textSpectular)">SHRESHTHA JAGDAMBE</text>
     <line x1="430" y1="65" x2="770" y2="65" stroke="url(#telemetryGrad)" stroke-width="1.2"/>
     <circle cx="600" cy="65" r="2.2" fill="#fff7e8"/>
+    <text x="600" y="262"
+      font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Fira Code', monospace"
+      font-size="13" font-weight="500" fill="#8b9bb4" letter-spacing="3.5">Building something meaningful, one project at a time<animate attributeName="opacity" values="0;0;0.92" dur="3.2s" fill="freeze"/></text>
   </g>
 </svg>
