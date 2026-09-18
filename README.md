@@ -69,7 +69,7 @@
 
 ### 📡 Let's Connect
 
-<!-- Add your real links — swap the # for your actual profile URLs -->
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreshtha-jagdambe-402a55307/)
 
 <img src="./assets/footer.svg" width="100%"/>
