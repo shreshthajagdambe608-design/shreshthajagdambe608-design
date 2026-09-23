@@ -1,68 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280">
   <defs>
-    <radialGradient id="voidGrad" cx="50%" cy="55%" r="75%">
-      <stop offset="0%" stop-color="#121724"/>
-      <stop offset="30%" stop-color="#0b0e18"/>
-      <stop offset="65%" stop-color="#05070d"/>
-      <stop offset="100%" stop-color="#010204"/>
+    <!-- Deep Space Void -->
+    <radialGradient id="spaceVoid" cx="72%" cy="48%" r="85%">
+      <stop offset="0%" stop-color="#0e1322"/>
+      <stop offset="28%" stop-color="#070a12"/>
+      <stop offset="60%" stop-color="#030408"/>
+      <stop offset="100%" stop-color="#010203"/>
     </radialGradient>
-    <radialGradient id="nebulaHaze" cx="50%" cy="55%" r="50%">
-      <stop offset="0%" stop-color="#9f7670" stop-opacity="0.12"/>
-      <stop offset="50%" stop-color="#c79f5e" stop-opacity="0.05"/>
+
+    <!-- Warm Relativistic Glow -->
+    <radialGradient id="systemHaze" cx="73%" cy="48%" r="55%">
+      <stop offset="0%" stop-color="#ff9d33" stop-opacity="0.25"/>
+      <stop offset="25%" stop-color="#cf5a13" stop-opacity="0.14"/>
+      <stop offset="55%" stop-color="#5a1c04" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="telemetryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#c79f5e" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#c79f5e" stop-opacity="0.7"/>
-      <stop offset="50%" stop-color="#fff7e8" stop-opacity="0.9"/>
-      <stop offset="70%" stop-color="#c79f5e" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#c79f5e" stop-opacity="0"/>
+
+    <!-- Broad Corona Bloom -->
+    <radialGradient id="coronaBloom" cx="0" cy="0" r="100%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="15%" stop-color="#ffe8b8" stop-opacity="0.88"/>
+      <stop offset="32%" stop-color="#fca834" stop-opacity="0.65"/>
+      <stop offset="58%" stop-color="#c94e0a" stop-opacity="0.28"/>
+      <stop offset="85%" stop-color="#5e1a03" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Upper Lensing Arch -->
+    <linearGradient id="upperArchGrad" x1="-150" y1="0" x2="100" y2="-120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff9924" stop-opacity="0.85"/>
+      <stop offset="25%" stop-color="#fff9ee" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#ffbf52" stop-opacity="0.95"/>
+      <stop offset="80%" stop-color="#d95a14" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#6e1c02" stop-opacity="0.1"/>
     </linearGradient>
-    <filter id="textSpectular" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="tBlur"/>
+
+    <linearGradient id="upperArchCaustic" x1="-120" y1="0" x2="80" y2="-100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffb84d" stop-opacity="0.75"/>
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="65%" stop-color="#ffe4a3" stop-opacity="0.92"/>
+      <stop offset="90%" stop-color="#e36316" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#732004" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Lower Lensing Arch -->
+    <linearGradient id="lowerArchGrad" x1="-50" y1="20" x2="120" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffa32b" stop-opacity="0.75"/>
+      <stop offset="40%" stop-color="#fff1d6" stop-opacity="0.95"/>
+      <stop offset="75%" stop-color="#db5e14" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#591803" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Accretion Disk Main Beam -->
+    <linearGradient id="diskBeamGrad" x1="-800" y1="0" x2="450" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#471402" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#b8450a" stop-opacity="0.45"/>
+      <stop offset="42%" stop-color="#f89523" stop-opacity="0.85"/>
+      <stop offset="58%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#ffa834" stop-opacity="0.92"/>
+      <stop offset="88%" stop-color="#ba450b" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#471402" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Foreground Outer Dust Apron -->
+    <linearGradient id="outerDustApron" x1="-920" y1="60" x2="300" y2="-20" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#140401" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#4a1705" stop-opacity="0.4"/>
+      <stop offset="42%" stop-color="#ad440a" stop-opacity="0.7"/>
+      <stop offset="68%" stop-color="#f89a2a" stop-opacity="0.85"/>
+      <stop offset="86%" stop-color="#ffdc8f" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- Telemetry Divider -->
+    <linearGradient id="telemetryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fca834" stop-opacity="0"/>
+      <stop offset="10%" stop-color="#fca834" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="90%" stop-color="#fca834" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#fca834" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
       <feMerge>
-        <feMergeNode in="tBlur"/>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- Bloom Filter -->
+    <filter id="bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="bigBlur"/>
+      <feGaussianBlur stdDeviation="4" result="midBlur"/>
+      <feMerge>
+        <feMergeNode in="bigBlur"/>
+        <feMergeNode in="midBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Drop Shadow for Text -->
+    <filter id="textDrop" x="-5%" y="-10%" width="115%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.9"/>
+    </filter>
   </defs>
 
-  <rect width="1200" height="280" fill="url(#voidGrad)"/>
-  <rect width="1200" height="280" fill="url(#nebulaHaze)"/>
+  <!-- Background -->
+  <rect width="1200" height="280" fill="url(#spaceVoid)"/>
+  <rect width="1200" height="280" fill="url(#systemHaze)"/>
 
-  <g fill="#ffffff">
-    <circle cx="65" cy="42" r="0.8" opacity="0.4"/>
-    <circle cx="140" cy="195" r="1.1" opacity="0.6"/>
-    <circle cx="215" cy="68" r="0.7" opacity="0.3"/>
-    <circle cx="280" cy="225" r="1.3" opacity="0.7"/>
-    <circle cx="360" cy="38" r="0.9" opacity="0.5"/>
-    <circle cx="430" cy="248" r="0.7" opacity="0.4"/>
-    <circle cx="510" cy="28" r="1.2" opacity="0.6"/>
-    <circle cx="690" cy="22" r="1.0" opacity="0.5"/>
-    <circle cx="775" cy="254" r="0.8" opacity="0.4"/>
-    <circle cx="850" cy="48" r="1.2" opacity="0.7"/>
-    <circle cx="935" cy="210" r="0.7" opacity="0.3"/>
-    <circle cx="1015" cy="72" r="1.4" opacity="0.8"/>
-    <circle cx="1090" cy="188" r="0.9" opacity="0.5"/>
-    <circle cx="1045" cy="135" r="1.1" opacity="0.7"/>
+  <!-- ==================== STARFIELD ==================== -->
+  <circle cx="30" cy="40" r="0.65" fill="#ffffff" opacity="0.35"/>
+  <circle cx="85" cy="205" r="0.85" fill="#ffffff" opacity="0.4"/>
+  <circle cx="120" cy="90" r="0.55" fill="#ffffff" opacity="0.25"/>
+  <circle cx="195" cy="240" r="0.75" fill="#ffffff" opacity="0.35"/>
+  <circle cx="270" cy="30" r="0.95" fill="#ffffff" opacity="0.45"/>
+  <circle cx="320" cy="215" r="0.65" fill="#ffffff" opacity="0.3"/>
+  <circle cx="430" cy="255" r="0.65" fill="#ffffff" opacity="0.3"/>
+  <circle cx="500" cy="35" r="0.95" fill="#ffffff" opacity="0.45"/>
+  <circle cx="550" cy="210" r="0.75" fill="#ffffff" opacity="0.35"/>
+  <circle cx="670" cy="230" r="0.55" fill="#ffffff" opacity="0.25"/>
+  <circle cx="720" cy="45" r="0.95" fill="#ffffff" opacity="0.5"/>
+  <circle cx="1030" cy="40" r="0.75" fill="#ffffff" opacity="0.4"/>
+  <circle cx="1100" cy="225" r="0.85" fill="#ffffff" opacity="0.45"/>
+  <circle cx="1150" cy="85" r="0.65" fill="#ffffff" opacity="0.3"/>
+  <circle cx="1175" cy="180" r="0.95" fill="#ffffff" opacity="0.5"/>
+
+  <!-- Twinkling stars -->
+  <circle cx="160" cy="38" r="1.3" fill="#ffe9c7">
+    <animate attributeName="opacity" values="0.25;0.95;0.25" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="235" cy="185" r="1.4" fill="#ffffff">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="495" cy="180" r="1.3" fill="#ffffff">
+    <animate attributeName="opacity" values="0.25;0.95;0.25" dur="3.8s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="645" cy="30" r="1.5" fill="#ffe0b2">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="5s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1010" cy="25" r="1.4" fill="#ffffff">
+    <animate attributeName="opacity" values="0.25;0.95;0.25" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1130" cy="140" r="1.5" fill="#ffe9c7">
+    <animate attributeName="opacity" values="0.25;0.95;0.25" dur="3.8s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ==================== GARGANTUA SYSTEM ==================== -->
+  <g transform="translate(875, 136) rotate(-16.5)">
+
+    <!-- Ambient Corona -->
+    <ellipse cx="0" cy="0" rx="260" ry="140" fill="url(#coronaBloom)" opacity="0.32" filter="url(#bloom)"/>
+
+    <!-- 1. LOWER GRAVITATIONAL LENSING ARCH -->
+    <path d="M -80,22 C -40,75 25,102 85,96 C 145,90 180,55 175,15 C 150,55 105,75 55,75 C 5,75 -40,55 -80,22 Z"
+          fill="url(#lowerArchGrad)" opacity="0.75" filter="url(#glow)"/>
+    <path d="M -50,18 C -20,62 30,82 80,78 C 130,74 155,46 150,15 C 130,46 95,62 50,62 C 5,62 -25,46 -50,18 Z"
+          fill="#ffa32b" opacity="0.85"/>
+    <path d="M -25,12 C 0,46 40,62 78,58 C 115,54 135,35 130,12 C 115,36 85,48 50,48 C 15,48 -5,36 -25,12 Z"
+          fill="#ffe2a8" opacity="0.95"/>
+
+    <!-- 2. UPPER GRAVITATIONAL LENSING ARCH -->
+    <path d="M -240,-5 C -190,-105 -70,-124 15,-120 C 95,-116 155,-85 165,-5 C 135,-70 75,-88 10,-88 C -65,-88 -160,-68 -240,-5 Z"
+          fill="url(#upperArchGrad)" opacity="0.7" filter="url(#bloom)"/>
+    <path d="M -215,-5 C -170,-94 -60,-110 12,-106 C 88,-102 142,-74 150,-5 C 122,-62 70,-78 8,-78 C -55,-78 -145,-60 -215,-5 Z"
+          fill="url(#upperArchGrad)" opacity="0.95" filter="url(#glow)"/>
+    <path d="M -180,-4 C -142,-82 -48,-95 10,-92 C 78,-88 126,-64 134,-4 C 108,-52 62,-66 6,-66 C -48,-66 -122,-50 -180,-4 Z"
+          fill="url(#upperArchCaustic)" opacity="0.95"/>
+    <path d="M -145,-2 C -112,-68 -35,-80 8,-78 C 65,-75 108,-54 115,-2 C 92,-44 52,-56 4,-56 C -40,-56 -100,-42 -145,-2 Z"
+          fill="#ffffff" opacity="0.98"/>
+    <path d="M -115,-1 C -88,-54 -25,-64 6,-62 C 52,-60 88,-42 94,-1 C 75,-34 42,-44 4,-44 C -30,-44 -78,-32 -115,-1 Z"
+          fill="#fff6e0" opacity="0.9"/>
+
+    <!-- 3. BACKSIDE DISK -->
+    <path d="M 0,-10 Q 180,-10 380,0 Q 180,10 0,10 Z" fill="#cf4f0c" opacity="0.55" filter="url(#glow)"/>
+    <path d="M 0,-6 Q 180,-6 350,0 Q 180,6 0,6 Z" fill="#ffa32b" opacity="0.8"/>
+    <path d="M -380,0 Q -190,-10 0,-10 Q -190,10 -380,0 Z" fill="#ffa834" opacity="0.8" filter="url(#glow)"/>
+    <path d="M -340,0 Q -170,-6 0,-6 Q -170,6 -340,0 Z" fill="#fff5db" opacity="0.95"/>
+
+    <!-- 4. CENTRAL EVENT HORIZON -->
+    <circle cx="0" cy="0" r="45" fill="#010204"/>
+
+    <!-- 5. RELATIVISTIC PHOTON RING -->
+    <circle cx="0" cy="0" r="46.8" fill="none" stroke="#fca834" stroke-width="2.6" opacity="0.75" filter="url(#glow)"/>
+    <circle cx="0" cy="0" r="46.0" fill="none" stroke="#ffffff" stroke-width="1.6" opacity="0.98">
+      <animate attributeName="opacity" values="0.9;1.0;0.9" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" values="1.6;2.2;1.6" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <ellipse cx="1" cy="-1" rx="44.8" ry="45.2" fill="none" stroke="#ffd994" stroke-width="0.7" opacity="0.85"/>
+
+    <!-- 6. FOREGROUND ACCRETION DISK -->
+    <path d="M -940,35 Q -450,42 0,32 Q 280,24 440,0 Q 280,68 0,72 Q -450,85 -940,35 Z"
+          fill="url(#outerDustApron)" opacity="0.54" filter="url(#glow)"/>
+    <path d="M -840,24 Q -400,32 0,24 Q 260,18 420,0 Q 260,50 0,54 Q -400,64 -840,24 Z"
+          fill="url(#diskBeamGrad)" opacity="0.75" filter="url(#bloom)"/>
+    <path d="M -720,16 Q -340,24 0,18 Q 240,14 390,0 Q 240,38 0,40 Q -340,48 -720,16 Z"
+          fill="url(#diskBeamGrad)" opacity="0.95" filter="url(#glow)"/>
+    <path d="M -560,8 Q -260,16 0,12 Q 200,8 350,0 Q 200,24 0,26 Q -260,32 -560,8 Z"
+          fill="#ffffff" opacity="0.98" filter="url(#glow)"/>
+
+    <!-- Fibrous plasma filaments -->
+    <path d="M -750,14 Q -360,20 0,14 Q 200,8 390,0" fill="none" stroke="#ffffff" stroke-width="3.2" opacity="0.98">
+      <animate attributeName="opacity" values="0.86;1.0;0.86" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M -680,18 Q -320,24 0,17 Q 190,10 350,0" fill="none" stroke="#ffebc2" stroke-width="2.2" opacity="0.95"/>
+    <path d="M -820,22 Q -400,28 0,20 Q 180,12 310,0" fill="none" stroke="#fca834" stroke-width="1.8" opacity="0.85"/>
+    <path d="M -890,28 Q -440,34 0,24 Q 160,14 260,0" fill="none" stroke="#d45b13" stroke-width="1.5" opacity="0.70"/>
+    <path d="M -940,36 Q -480,42 0,28 Q 140,16 200,0" fill="none" stroke="#963205" stroke-width="2.2" opacity="0.55"/>
+    <path d="M -640,8 Q -300,12 0,8 Q 210,5 370,0" fill="none" stroke="#ffdca3" stroke-width="1.2" opacity="0.8"/>
+    <path d="M -480,4 Q -220,7 0,4 Q 180,2 330,0" fill="none" stroke="#ffffff" stroke-width="1.0" opacity="0.85"/>
+
+    <!-- 7. DOPPLER BEAMING HOTSPOT -->
+    <ellipse cx="-35" cy="10" rx="60" ry="20" fill="#ffffff" opacity="0.98" filter="url(#bloom)">
+      <animate attributeName="opacity" values="0.88;1.0;0.88" dur="5.5s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="-48" cy="11" rx="100" ry="30" fill="#fca834" opacity="0.7" filter="url(#glow)"/>
+    <ellipse cx="-70" cy="13" rx="150" ry="42" fill="#d4540d" opacity="0.35" filter="url(#bloom)"/>
+
   </g>
 
-  <g transform="translate(600,155)">
-    <ellipse cx="0" cy="0" rx="280" ry="40" fill="none" stroke="url(#telemetryGrad)" stroke-width="26" opacity="0.35" filter="url(#textSpectular)"/>
-    <ellipse cx="0" cy="0" rx="160" ry="20" fill="none" stroke="url(#telemetryGrad)" stroke-width="12" opacity="0.8"/>
-    <circle cx="0" cy="0" r="58" fill="#010204"/>
-    <circle cx="0" cy="0" r="59.5" fill="none" stroke="#fff7e8" stroke-width="2.2" opacity="0.95"/>
-    <circle cx="0" cy="0" r="62" fill="none" stroke="#f3c759" stroke-width="1.2" opacity="0.6"/>
+  <!-- ==================== MILLER'S PLANET ==================== -->
+  <g transform="translate(648, 58)">
+    <circle cx="0" cy="0" r="10.5" fill="#060910"/>
+    <circle cx="-1" cy="-1" r="9.5" fill="#020306"/>
+    <path d="M 0,-10.5 A 10.5 10.5 0 0 1 10.5,0 A 10.5 10.5 0 0 1 0,10.5 C 5.5,7.5 8.5,4 8.5,0 C 8.5,-4 5.5,-7.5 0,-10.5 Z"
+          fill="#fff3db" opacity="0.98" filter="url(#glow)"/>
+    <path d="M 2,-9.5 A 9.5 9.5 0 0 1 9.5,0 A 9.5 9.5 0 0 1 2,9.5 C 5.5,6.5 7.5,3 7.5,0 C 7.5,-3 5.5,-6.5 2,-9.5 Z"
+          fill="#ffffff" opacity="1.0"/>
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#fca834" stroke-width="0.8" opacity="0.5"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; -3.5,2; 0,0" dur="14s" repeatCount="indefinite" additive="sum"/>
   </g>
 
-  <g text-anchor="middle">
-    <text x="600" y="52"
-      font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Fira Code', sans-serif"
-      font-size="34" font-weight="800" fill="#e8e2d8" letter-spacing="6" filter="url(#textSpectular)">SHRESHTHA JAGDAMBE</text>
-    <line x1="430" y1="65" x2="770" y2="65" stroke="url(#telemetryGrad)" stroke-width="1.2"/>
-    <circle cx="600" cy="65" r="2.2" fill="#fff7e8"/>
-    <text x="600" y="262"
-      font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Fira Code', monospace"
-      font-size="13" font-weight="500" fill="#8b9bb4" letter-spacing="3.5">Building something meaningful, one project at a time<animate attributeName="opacity" values="0;0;0.92" dur="3.2s" fill="freeze"/></text>
+  <!-- ==================== TYPOGRAPHY & TELEMETRY ==================== -->
+  <g transform="translate(72, 0)">
+
+    <!-- Top Telemetry Beacon -->
+    <g transform="translate(0, 64)">
+      <rect x="0" y="-8" width="5" height="5" fill="#fca834">
+        <animate attributeName="opacity" values="0.95;0.35;0.95" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="14" y="-3"
+            font-family="'SF Pro Display', -apple-system, 'Segoe UI', Roboto, monospace"
+            font-size="9" font-weight="700" fill="#fca834" letter-spacing="3">DEEP SPACE EXPLORATION // 001</text>
+    </g>
+
+    <!-- Main Name Title -->
+    <text x="0" y="114"
+          font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+          font-size="34" font-weight="900" fill="#ffffff" letter-spacing="6.5"
+          filter="url(#textDrop)">SHRESHTHA JAGDAMBE</text>
+
+    <!-- Divider Line with Radiant Core Accent -->
+    <g transform="translate(0, 132)">
+      <line x1="0" y1="0" x2="430" y2="0" stroke="url(#telemetryGrad)" stroke-width="1.6"/>
+      <circle cx="215" cy="0" r="2.8" fill="#ffffff"/>
+      <circle cx="215" cy="0" r="6" fill="#fca834" opacity="0.6" filter="url(#glow)"/>
+      <line x1="0" y1="-3.5" x2="0" y2="3.5" stroke="#fca834" stroke-width="1.5"/>
+      <line x1="430" y1="-3.5" x2="430" y2="3.5" stroke="#fca834" stroke-width="1.5"/>
+    </g>
+
+    <!-- Subtitle (No 'one project at a time') -->
+    <text x="2" y="166"
+          font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+          font-size="13" font-weight="700" fill="#b4c6dc" letter-spacing="4.8"
+          filter="url(#textDrop)">BUILDING SOMETHING MEANINGFUL</text>
+
+    <!-- Status Telemetry -->
+    <g transform="translate(2, 198)">
+      <circle cx="3" cy="-3.5" r="2.2" fill="#52c41a">
+        <animate attributeName="opacity" values="0.95;0.35;0.95" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="15" y="0"
+            font-family="'SF Pro Text', -apple-system, 'Segoe UI', Roboto, monospace"
+            font-size="9.5" font-weight="600" fill="#7d93ac" letter-spacing="2.2">SYSTEM: GARGANTUA  •  TIME DILATION: 1 HR = 7 YRS</text>
+    </g>
+
   </g>
+
 </svg>
