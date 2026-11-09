@@ -3,7 +3,7 @@
 <img src="./assets/header.svg" width="100%" alt="Shreshtha Jagdambe"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=23&duration=3300&pause=800&color=F3C759&background=00000000&center=true&vCenter=true&width=700&height=45&letterSpacing=1.2px&lines=Exploring+the+space+between+imagination+%26+tech;Frontend+Developer+%7C+UI%2FUX+Enthusiast;Learning.+Building.+Experimenting.+Repeat." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=23&duration=3300&pause=800&color=F3C759&background=00000000&center=true&vCenter=true&width=700&height=45&letterSpacing=1.2px&lines=Exploring+the+space+between+imagination+%26+tech;Learning.+Building.+Experimenting.+Repeat." alt="Typing SVG" />
 </a>
 
 </div>
